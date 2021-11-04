@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import coach from *
+
 # Source packages.
 
 
@@ -40,12 +42,12 @@ def main():
     print("------------------------------------------------------------------")
 
     # Get a copy of the list of warriors for both coaches
-    
+
     # Choose first warriors for both coaches
 
     # Create the algorithm of the game. The coaches will fight until all their warriors are defeated. 
     # If a warrior is defeated, the coach should select the next warrior to enter the combat.
-    
+
     print("------------------------------------------------------------------")
     print("The Game has end...")
     print("------------------------------------------------------------------")
@@ -55,7 +57,7 @@ def main():
     print("------------------------------------------------------------------")
     print("Statistics")
     print("------------------------------------------------------------------")
-    
+
 
 
 # Checking whether this module is executed just itself alone.

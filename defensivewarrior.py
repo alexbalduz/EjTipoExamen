@@ -11,34 +11,34 @@ class DefensiveWarrior():
 
     Syntax
     ------
-      obj = Warrior(id, warrior_type, weapon_type, health_points,
+    obj = Warrior(id, warrior_type, weapon_type, health_points,
                     attack_rating, defense_rating,
                     special_defense_rating)
 
     Parameters
     ----------
-      [in] id Id of warrior.
-      [in] warrior_type Type of warrior.
-      [in] weapon_type Type of weapon that carries out the warrior.
-      [in] health_points Points of health that the warrior has.
-      [in] attack_rating Attack rating of the warrior.
-      [in] defense_rating Defense rating of the warrior.
-      [in] special_defense_rating Special Defense rating of the warrior.
+    [in] id Id of warrior.
+    [in] warrior_type Type of warrior.
+    [in] weapon_type Type of weapon that carries out the warrior.
+    [in] health_points Points of health that the warrior has.
+    [in] attack_rating Attack rating of the warrior.
+    [in] defense_rating Defense rating of the warrior.
+    [in] special_defense_rating Special Defense rating of the warrior.
 
     Returns
     -------
-      obj Python object output parameter that represents an instance
-          of the class Warrior.
+    obj Python object output parameter that represents an instance
+        of the class Warrior.
 
     Attributes
     ----------
 
     Example
     -------
-      >>> from defensivewarrior import DefensiveWarrior
-      >>> from warrior_type import WarriorType
-      >>> from weapon_type import WeaponType
-      >>> obj_Warrior = DefensiveWarrior(1, WarriorType.BOXER, WeaponType.KICK, 99, 10, 7, 19)
+    >>> from defensivewarrior import DefensiveWarrior
+    >>> from warrior_type import WarriorType
+    >>> from weapon_type import WeaponType
+    >>> obj_Warrior = DefensiveWarrior(1, WarriorType.BOXER, WeaponType.KICK, 99, 10, 7, 19)
     """
 
 
@@ -49,19 +49,19 @@ def main():
 
     Syntax
     ------
-      [ ] = main()
+    [ ] = main()
 
     Parameters
     ----------
-      Null .
+    Null .
 
     Returns
     -------
-      Null .
+    Null .
 
     Example
     -------
-      >>> main()
+    >>> main()
     """
 
     print("=================================================================.")

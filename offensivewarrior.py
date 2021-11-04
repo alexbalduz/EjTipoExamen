@@ -12,32 +12,32 @@ class OffensiveWarrior():
 
     Syntax
     ------
-      obj = Warrior(id, warrior_type, weapon_type, health_points,
+    obj = Warrior(id, warrior_type, weapon_type, health_points,
                     attack_rating, defense_rating,
                     special_attack_rating)
 
     Parameters
     ----------
-      [in] id Id of warrior.
-      [in] warrior_type Type of warrior.
-      [in] weapon_type Type of weapon that carries out the warrior.
-      [in] health_points Points of health that the warrior has.
-      [in] attack_rating Attack rating of the warrior.
-      [in] defense_rating Defense rating of the warrior.
-      [in] special_attack_rating Special Attack rating of the warrior.
+    [in] id Id of warrior.
+    [in] warrior_type Type of warrior.
+    [in] weapon_type Type of weapon that carries out the warrior.
+    [in] health_points Points of health that the warrior has.
+    [in] attack_rating Attack rating of the warrior.
+    [in] defense_rating Defense rating of the warrior.
+    [in] special_attack_rating Special Attack rating of the warrior.
 
     Returns
     -------
-      obj Python object output parameter that represents an instance
-          of the class Warrior.
+    obj Python object output parameter that represents an instance
+        of the class Warrior.
 
     Attributes
     ----------
 
     Example
     -------
-      >>> from warrior import Warrior
-      >>> obj_Warrior = Warrior("Boxer", "Fist", 99, 10, 7, 19)
+    >>> from warrior import Warrior
+    >>> obj_Warrior = Warrior("Boxer", "Fist", 99, 10, 7, 19)
     """
 
 
@@ -49,19 +49,19 @@ def main():
 
     Syntax
     ------
-      [ ] = main()
+    [ ] = main()
 
     Parameters
     ----------
-      Null .
+    Null .
 
     Returns
     -------
-      Null .
+    Null .
 
     Example
     -------
-      >>> main()
+    >>> main()
     """
 
     print("=================================================================.")

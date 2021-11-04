@@ -8,7 +8,7 @@ def max_2_numbers(number1, number2):
         raise TypeError("TypeError. max_2_numbers receives 2 numbers")
     elif number1 < number2:
         return number2
-    else: 
+    else:
         return number1
 
 def main():
